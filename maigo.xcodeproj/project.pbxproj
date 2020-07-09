@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5443146524B592470006DB17 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5443146424B592470006DB17 /* MapViewController.swift */; };
+		54A9C68924AD82810037C775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A9C68824AD82810037C775 /* AppDelegate.swift */; };
+		54A9C68B24AD82810037C775 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A9C68A24AD82810037C775 /* SceneDelegate.swift */; };
+		54A9C68D24AD82810037C775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A9C68C24AD82810037C775 /* ViewController.swift */; };
+		54A9C69024AD82810037C775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A9C68E24AD82810037C775 /* Main.storyboard */; };
+		54A9C69224AD82820037C775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A9C69124AD82820037C775 /* Assets.xcassets */; };
+		54A9C69524AD82820037C775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A9C69324AD82820037C775 /* LaunchScreen.storyboard */; };
+		54A9C6A024AD82820037C775 /* maigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A9C69F24AD82820037C775 /* maigoTests.swift */; };
+		54A9C6AB24AD82820037C775 /* maigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A9C6AA24AD82820037C775 /* maigoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A9C69C24AD82820037C775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A9C67D24AD82800037C775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A9C68424AD82800037C775;
+			remoteInfo = maigo;
+		};
+		54A9C6A724AD82820037C775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A9C67D24AD82800037C775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A9C68424AD82800037C775;
+			remoteInfo = maigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5443146424B592470006DB17 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		54A9C68524AD82810037C775 /* Navi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A9C68824AD82810037C775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54A9C68A24AD82810037C775 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54A9C68C24AD82810037C775 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54A9C68F24AD82810037C775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54A9C69124AD82820037C775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A9C69424AD82820037C775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54A9C69624AD82820037C775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A9C69B24AD82820037C775 /* maigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A9C69F24AD82820037C775 /* maigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maigoTests.swift; sourceTree = "<group>"; };
+		54A9C6A124AD82820037C775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A9C6A624AD82820037C775 /* maigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A9C6AA24AD82820037C775 /* maigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maigoUITests.swift; sourceTree = "<group>"; };
+		54A9C6AC24AD82820037C775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A9C68224AD82800037C775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A9C69824AD82820037C775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A9C6A324AD82820037C775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A9C67C24AD82800037C775 = {
+			isa = PBXGroup;
+			children = (
+				54A9C68724AD82810037C775 /* maigo */,
+				54A9C69E24AD82820037C775 /* maigoTests */,
+				54A9C6A924AD82820037C775 /* maigoUITests */,
+				54A9C68624AD82810037C775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A9C68624AD82810037C775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A9C68524AD82810037C775 /* Navi.app */,
+				54A9C69B24AD82820037C775 /* maigoTests.xctest */,
+				54A9C6A624AD82820037C775 /* maigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A9C68724AD82810037C775 /* maigo */ = {
+			isa = PBXGroup;
+			children = (
+				54A9C68824AD82810037C775 /* AppDelegate.swift */,
+				54A9C68A24AD82810037C775 /* SceneDelegate.swift */,
+				54A9C68C24AD82810037C775 /* ViewController.swift */,
+				5443146424B592470006DB17 /* MapViewController.swift */,
+				54A9C68E24AD82810037C775 /* Main.storyboard */,
+				54A9C69124AD82820037C775 /* Assets.xcassets */,
+				54A9C69324AD82820037C775 /* LaunchScreen.storyboard */,
+				54A9C69624AD82820037C775 /* Info.plist */,
+			);
+			path = maigo;
+			sourceTree = "<group>";
+		};
+		54A9C69E24AD82820037C775 /* maigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				54A9C69F24AD82820037C775 /* maigoTests.swift */,
+				54A9C6A124AD82820037C775 /* Info.plist */,
+			);
+			path = maigoTests;
+			sourceTree = "<group>";
+		};
+		54A9C6A924AD82820037C775 /* maigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54A9C6AA24AD82820037C775 /* maigoUITests.swift */,
+				54A9C6AC24AD82820037C775 /* Info.plist */,
+			);
+			path = maigoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A9C68424AD82800037C775 /* maigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A9C6AF24AD82820037C775 /* Build configuration list for PBXNativeTarget "maigo" */;
+			buildPhases = (
+				54A9C68124AD82800037C775 /* Sources */,
+				54A9C68224AD82800037C775 /* Frameworks */,
+				54A9C68324AD82800037C775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maigo;
+			productName = maigo;
+			productReference = 54A9C68524AD82810037C775 /* Navi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A9C69A24AD82820037C775 /* maigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A9C6B224AD82820037C775 /* Build configuration list for PBXNativeTarget "maigoTests" */;
+			buildPhases = (
+				54A9C69724AD82820037C775 /* Sources */,
+				54A9C69824AD82820037C775 /* Frameworks */,
+				54A9C69924AD82820037C775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A9C69D24AD82820037C775 /* PBXTargetDependency */,
+			);
+			name = maigoTests;
+			productName = maigoTests;
+			productReference = 54A9C69B24AD82820037C775 /* maigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54A9C6A524AD82820037C775 /* maigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A9C6B524AD82820037C775 /* Build configuration list for PBXNativeTarget "maigoUITests" */;
+			buildPhases = (
+				54A9C6A224AD82820037C775 /* Sources */,
+				54A9C6A324AD82820037C775 /* Frameworks */,
+				54A9C6A424AD82820037C775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A9C6A824AD82820037C775 /* PBXTargetDependency */,
+			);
+			name = maigoUITests;
+			productName = maigoUITests;
+			productReference = 54A9C6A624AD82820037C775 /* maigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A9C67D24AD82800037C775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hyu;
+				TargetAttributes = {
+					54A9C68424AD82800037C775 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					54A9C69A24AD82820037C775 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 54A9C68424AD82800037C775;
+					};
+					54A9C6A524AD82820037C775 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 54A9C68424AD82800037C775;
+					};
+				};
+			};
+			buildConfigurationList = 54A9C68024AD82800037C775 /* Build configuration list for PBXProject "maigo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A9C67C24AD82800037C775;
+			productRefGroup = 54A9C68624AD82810037C775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A9C68424AD82800037C775 /* maigo */,
+				54A9C69A24AD82820037C775 /* maigoTests */,
+				54A9C6A524AD82820037C775 /* maigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A9C68324AD82800037C775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A9C69524AD82820037C775 /* LaunchScreen.storyboard in Resources */,
+				54A9C69224AD82820037C775 /* Assets.xcassets in Resources */,
+				54A9C69024AD82810037C775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A9C69924AD82820037C775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A9C6A424AD82820037C775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A9C68124AD82800037C775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A9C68D24AD82810037C775 /* ViewController.swift in Sources */,
+				54A9C68924AD82810037C775 /* AppDelegate.swift in Sources */,
+				54A9C68B24AD82810037C775 /* SceneDelegate.swift in Sources */,
+				5443146524B592470006DB17 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A9C69724AD82820037C775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A9C6A024AD82820037C775 /* maigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A9C6A224AD82820037C775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A9C6AB24AD82820037C775 /* maigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A9C69D24AD82820037C775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A9C68424AD82800037C775 /* maigo */;
+			targetProxy = 54A9C69C24AD82820037C775 /* PBXContainerItemProxy */;
+		};
+		54A9C6A824AD82820037C775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A9C68424AD82800037C775 /* maigo */;
+			targetProxy = 54A9C6A724AD82820037C775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54A9C68E24AD82810037C775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A9C68F24AD82810037C775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54A9C69324AD82820037C775 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A9C69424AD82820037C775 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54A9C6AD24AD82820037C775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54A9C6AE24AD82820037C775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A9C6B024AD82820037C775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ49LJPA4;
+				INFOPLIST_FILE = maigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = re.Navi;
+				PRODUCT_NAME = Navi;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A9C6B124AD82820037C775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ49LJPA4;
+				INFOPLIST_FILE = maigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = re.Navi;
+				PRODUCT_NAME = Navi;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54A9C6B324AD82820037C775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ49LJPA4;
+				INFOPLIST_FILE = maigoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = re.maigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maigo.app/maigo";
+			};
+			name = Debug;
+		};
+		54A9C6B424AD82820037C775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ49LJPA4;
+				INFOPLIST_FILE = maigoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = re.maigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maigo.app/maigo";
+			};
+			name = Release;
+		};
+		54A9C6B624AD82820037C775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ49LJPA4;
+				INFOPLIST_FILE = maigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = re.maigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = maigo;
+			};
+			name = Debug;
+		};
+		54A9C6B724AD82820037C775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ49LJPA4;
+				INFOPLIST_FILE = maigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = re.maigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = maigo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A9C68024AD82800037C775 /* Build configuration list for PBXProject "maigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A9C6AD24AD82820037C775 /* Debug */,
+				54A9C6AE24AD82820037C775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A9C6AF24AD82820037C775 /* Build configuration list for PBXNativeTarget "maigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A9C6B024AD82820037C775 /* Debug */,
+				54A9C6B124AD82820037C775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A9C6B224AD82820037C775 /* Build configuration list for PBXNativeTarget "maigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A9C6B324AD82820037C775 /* Debug */,
+				54A9C6B424AD82820037C775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A9C6B524AD82820037C775 /* Build configuration list for PBXNativeTarget "maigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A9C6B624AD82820037C775 /* Debug */,
+				54A9C6B724AD82820037C775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A9C67D24AD82800037C775 /* Project object */;
+}
